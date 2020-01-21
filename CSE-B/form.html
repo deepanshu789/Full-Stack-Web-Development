@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inputDetails</title>
+</head>
+<body>
+		firstName: <input type="text" id="first" placeholder="Enter FirstName"> <br>
+
+		lastName: <input type="text" id="last" placeholder="Enter LastName"> <br>
+
+		<input id ='btn' type="submit">
+
+		<script type="text/javascript">
+		document.getElementById('btn').onclick = function() {
+
+			firstName = document.getElementById("first").value;
+			secondName = document.getElementById("last").value;
+			console.log(firstName+' '+secondName);
+
+		}	
+	</script>
+
+
+</body>
+</html>
